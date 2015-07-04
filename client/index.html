@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Praxus Star Citizen</title>
+    <link href="vendor/materialize/dist/css/materialize.css" rel="stylesheet">
+<!-- <link href="css/styles.css" rel="stylesheet">-->
+  </head>
+  <body>
+    <script src="vendor/jquery/dist/jquery.min.js"></script>
+    <script src="vendor/materialize/dist/js/materialize.js"></script>
+    <script src="js\texteffect.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.parallax').parallax();
+        $("#title1").rot13();
+        $("#text1").rot13();
+
+        function textScrambleOne() {
+          $("#title1").rot13();
+          $("#text1").rot13();
+          $('#title1').unscramble();
+          $('#text1').delay(2000).unscramble();
+        }
+        setTimeout(textScrambleOne, 2000)
+      });
+    </script>
+    <script src="js\texteffect.js"></script>
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://images.alphacoders.com/465/465006.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">
+          <div id="title1">1. Paralax Query Text Effects</div>
+        </h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          <div id="text1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis accumsan orci a felis vestibulum finibus eget a felis. Aenean lacinia et ligula quis ornare. Sed feugiat dolor et orci efficitur, in congue leo sodales. Proin orci velit, fermentum ut leo a, fermentum consectetur odio. Proin molestie sem et ligula efficitur iaculis. Ut sit amet magna in erat ullamcorper laoreet sit amet eu erat. Aenean ullamcorper, metus eu interdum semper, dolor purus ultrices est, in fermentum lacus ante rutrum tellus. Aenean ut lorem lobortis, condimentum odio vel, tincidunt lorem. Quisque dapibus interdum risus eu ultricies. Fusce tellus nibh, iaculis quis ultrices sit amet, viverra non orci. Sed vehicula efficitur malesuada. Vivamus rhoncus neque nulla, id consequat quam laoreet at. Mauris finibus est metus, a tristique nunc commodo non. Sed rhoncus ultricies leo, ut tristique metus elementum vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum euismod a lacus vel ultricies.
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://images.alphacoders.com/465/465006.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">
+          <div id="title2">2. Paralax Query Text Effects</div>
+        </h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          <div id="text2">
+            Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://images.alphacoders.com/465/465006.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">
+          <div id="title3">3. Paralax Query Text Effects</div>
+        </h2>
+        <p class="grey-text text-darken-3 lighten-3">
+          <div id="text3">
+            Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.
+          </div>
+        </p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://images.alphacoders.com/465/465006.jpg"></div>
+    </div>
+  </body>
+
+</html>

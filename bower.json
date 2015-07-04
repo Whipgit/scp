@@ -1,0 +1,19 @@
+{
+  "name": "scp",
+  "version": "0.0.0",
+  "authors": [
+    "Whiplash88 <whiplash174@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0"
+  }
+}
